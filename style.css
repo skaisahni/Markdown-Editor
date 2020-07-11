@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #aaaaaa;
+}
+
+#page-title {
+  margin: 0.5vh 7vw;
+  font-family: 'Poppins', sans-serif;
+}
+
+small {
+  padding-left: 0.5em;
+  font-size: 0.5em;
+  color: rgba(82,81,71, 0.5);
+}
+
+small a {
+  color: rgba(82,81,71, 1);
+  text-decoration: none;
+}
+
+small a:hover {
+  color: rgba(237,237,236, 0.8);
+}
+
+#container {
+  display: flex;
+  justify-content: space-around;
+  height: 87vh;
+  padding: 2vh 2vw;
+}
+
+.box {
+  display: block;
+  height: 100%;
+}
+
+.box-title {
+  background-color: #525147;
+  color: #da7900;
+  margin: 0;
+  padding: 1vh 2vh;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 2.5vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+#editor, #preview {
+  box-shadow: 0 0 10px #525147;
+  background-color: #fff;
+  width: 45vw;
+  height: 95%;
+  overflow: scroll;
+  border: none;
+}
+
+@media (max-width: 1080px) {
+  #page-title {
+    margin: 0.5vh 13vw;
+  }
+
+  small {
+    padding-left: 3vw;
+  }
+  
+  #container {
+    align-items: center;
+    padding: 1vh 1vw;
+    flex-flow: column;
+    height: auto;
+  }
+
+  .box {
+    height: auto;
+  }
+  
+  .box-title {
+    margin-top: 1vh;
+  }
+
+  #editor, #preview {  
+    width: 95vw;
+    margin: auto;
+    height: 85vh;
+  }
+}

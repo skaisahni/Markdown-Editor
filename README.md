@@ -1,29 +1,14 @@
-# README #
+# MarkDwon Editor application  using React, Redux, Javascript ,css , html, Marked.js #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+*  Appliction which can be used to add formatting elements to plaintext text documents.
+*  Technology: Html, CSS, Javascript, Redux ,react, Marked.js
+* Version:1:0
 
-### What is this repository for? ###
+# Files :
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Index.html for html body;
+* style.css  for styling of pages;
+* logicvisual.js for formatting and styling logic to perform task;
 
-### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
